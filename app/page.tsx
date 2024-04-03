@@ -1,7 +1,26 @@
+"use client";
+
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import {
+  ArriveGame,
+  Introduction,
+  Overview,
+  Slider,
+  Welcome,
+} from "./components";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Thanh binh
+    <main>
+      <Introduction />
+
+      <Welcome />
+
+      <Overview />
+
+      <Slider />
+
+      <ArriveGame />
     </main>
   );
 }
